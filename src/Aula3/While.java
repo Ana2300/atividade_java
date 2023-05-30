@@ -9,13 +9,14 @@ public class While {
 		String continua = "S";
 		int numero1, numero2, resultado = 0;
 		Scanner leia = new Scanner(System.in);
+		
 
         while(continua.equals("s")) {
 		System.out.println("digite o primeiro valor");
 		numero1 = leia.nextInt();
 		
 		System.out.println("digite o segundo valor");
-		numero1 = leia.nextInt();
+		numero2 = leia.nextInt();
 		
 		resultado = numero1 + numero2;
 		
@@ -23,13 +24,10 @@ public class While {
 		
 		System.out.println("deseja continuar? (s/n");
 		numero1 = leia.nextInt();
-		
-		
-		
-		
-		
-		
-		
+	
+        }
+	}
+	
 	}
 
-}
+
